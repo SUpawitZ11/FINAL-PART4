@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #004aad !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .login-card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+      padding: 40px;
+      width: 100%;
+      max-width: 400px;
+      text-align: center;
+    }
+    .login-card img {
+      width: 100px;
+      margin-bottom: 20px;
+    }
+    .btn-login {
+      background-color: #004aad;
+      color: white;
+      font-weight: bold;
+    }
+    .btn-login:hover {
+      background-color: #004aad !important;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-card">
+    <img src="picture/advance.png" alt="logo">
+    <form>
+      <div class="mb-3">
+        <input type="email" class="form-control" placeholder="Email address" required>
+      </div>
+      <div class="mb-3">
+        <input type="password" class="form-control" placeholder="Password" required>
+      </div>
+      <button type="submit" class="btn btn-login w-100">Login</button>
+    </form>
+    <!-- ปุ่มกลับไปเมนูหลัก -->
+    <div class="mt-3">
+      <a href="index.html" target="_blank" class="btn btn-outline-secondary w-100">
+        ← กลับไปเมนูหลัก
+      </a>
+    </div>
+  </div>
+</body>
+</html>
